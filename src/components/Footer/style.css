@@ -1,0 +1,108 @@
+ 
+* {
+    font-family: "Montserrat";
+ }
+ 
+ .list5>li {
+     list-style-type: none;
+ }
+
+ .footer2 {
+     background-color: rgb(219, 216, 216);
+     color:#676867;
+     /* background-image: url('../images/try.jpeg'); */
+ }
+
+ .footer2_info {
+     width: 90%;
+     margin: 0 auto;
+     display: flex;
+     padding: 50px 0;
+ }
+
+ .footer2_info .footer2_width {
+     padding: 0 15px;
+ }
+ .footer_info h2{
+     margin-bottom: 20px;
+ }
+
+ .about1, .contact {
+     width: 40%;
+ }
+
+ .link1 {
+     width: 20%;
+ }
+ .social-media{
+     margin-top: 0px;
+     
+     margin-left: 450px;
+ }
+ .social-media ul {
+     display: flex;
+ }
+ .social-media ul li a{
+     display: inline-block;
+     margin-right: 50px;
+     width: 50px;
+     height: 50px;
+     padding-top: 12px;
+     background-color: transparent;
+     border: 0px solid whitesmoke;
+     text-align: center;
+
+ }
+
+ .social-media ul li a:hover{
+    background-color: whitesmoke;
+    color: black;
+ }
+
+ .link1 ul li{
+     margin-bottom: 15px;
+     font-size: 20px;
+ }
+
+ .link1 ul li a:hover{
+     background-color:whitesmoke;
+     text-decoration: none;
+
+ }
+ .contact ul li span {
+    margin-bottom: 15px;
+ }
+
+ .copy-right{
+     padding : 15px 0;
+     padding-right:  50px;
+     text-align: center;
+     background-color: rgb(219, 216, 216);
+     color: #676867
+ }
+ .fb1 {
+     color : blue;
+ }
+
+ @media screen and (max-width:992px){
+     .about1, .contact{
+         width: 35%;
+
+     }
+     .link1{
+         width: 30%;
+     }
+ }
+
+ @media screen and(max-width:767px){
+    .about1, .contact, .link1{
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .footer2_info{
+        flex-direction: column;
+    }
+
+ }
+

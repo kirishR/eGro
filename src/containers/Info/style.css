@@ -1,0 +1,21 @@
+.info{
+    margin: 50px;
+    padding: 100px;
+    background-color: white;
+    border-radius: 50px;
+}
+.logo{
+    width: 137px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top:5px;
+    float:inline-start;
+}
+.logo .logoimage{
+    width: 100px;
+    padding-bottom: 40px;
+}
