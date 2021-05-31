@@ -20,7 +20,7 @@ import {
 } from "react-router-dom";
 
 import "./style.css";
-import PaymentForm from "./payment";
+// import PaymentForm from "./payment";
 
 /**
  * @author

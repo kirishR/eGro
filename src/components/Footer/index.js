@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+
 import './style.css'
 
 function Footer2() {
@@ -17,8 +17,8 @@ function Footer2() {
                         <ul class="list5">
                             <li><a style={{ color: "#676867" }} href={"/"}>Home</a></li>
                             <li><a style={{ color: "#676867" }} href={'/info'}>About</a></li>
-                            <li><a style={{ color: "#676867" }} href="#">Service</a></li>
-                            <li><a style={{ color: "#676867" }} href="https://wa.me/94771268588" target="_blank">Contact</a></li>
+                            <li><a style={{ color: "#676867" }} href={"/"} >Service</a></li>
+                            <li><a style={{ color: "#676867" }} href="https://wa.me/94771268588" rel="noreferrer"  target="_blank">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer2_width contact">

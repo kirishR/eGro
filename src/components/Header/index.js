@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./style.css";
 import eGroLogo from "../../images/logo/eGro3.png";
 // import goldenStar from "../../imaes/logo/golden-star.png";
-import { IoIosArrowDown,IoIosCart, IoIosSearch } from "react-icons/io";
+import {  IoIosSearch } from "react-icons/io";
 import {
   Modal,
   MaterialInput,
@@ -10,7 +10,7 @@ import {
   DropdownMenu,
 } from "../MaterialUI";
 import { useDispatch, useSelector } from "react-redux";
-import { login, signout,getCartItems, signup as _signup } from "../../actions";
+import { login, signout, signup as _signup } from "../../actions";
 import Cart from "../UI/Cart";
 
 
@@ -26,7 +26,7 @@ const Header = (props) => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  // const [error, setError] = useState("");
   const auth = useSelector((state) => state.auth);
   const dispatch = useDispatch();
 

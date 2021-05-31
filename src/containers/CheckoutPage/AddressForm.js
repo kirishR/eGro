@@ -40,7 +40,7 @@ const AddressForm = (props) => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user);
   const [submitFlag, setSubmitFlag] = useState(false);
-  const [id, setId] = useState(initialData ? initialData._id : "");
+  const [id] = useState(initialData ? initialData._id : "");
 
   const inputContainer = {
     width: "100%",
